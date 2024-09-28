@@ -517,6 +517,7 @@ img {
     width: 264px;
     height: 40px;
     border: 1px solid #fff;
+    color: #ffffff;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
@@ -526,10 +527,14 @@ img {
 }
 
 .input-text-footer::placeholder {
-    color: #fff;
+    color; #ffffff;
 }
 
 .footer-subscr {
+    margin-left: 80px;
+}
+
+.form-footer {
     display: flex;
 }
 
