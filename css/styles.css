@@ -506,24 +506,26 @@ img {
     margin-bottom: 16px;
 }
 
-.footer-input {
-    margin-left: 80px;
-    margin-right: 24px;
+.form-footer {
+    display: flex;
+    gap: 24px;
 }
+
 
 .input-text-footer {
     background-color: transparent;
     width: 264px;
     height: 40px;
     border: 1px solid #fff;
-    border-radius: 4px;
-    padding-left: 16px;
-}
-
-.input-text-footer::placeholder {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    border-radius: 4px;
+    padding-left: 16px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+
+.input-text-footer::placeholder {
     color: #fff;
 }
 
@@ -531,30 +533,31 @@ img {
     display: flex;
 }
 
-.footer-link-icon {
-    background-color: #4d5ae5;
+.footer-form-btn {
+    min-width: 165px;
+    height: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
-    padding: 8px 24px;
-}
-
-.footer-link-frame {
-    display: inline-flex;
-    justify-content: center;
-    align-items: center;
-    fill: #fff;
-}
-
-.footen-link-sub {
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
     text-align: center;
     color: #fff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+
 }
+
+.footer-link-frame {
+    margin-left: 16px;
+    fill: #fff;
+}
+
 
 .modal-backdrop {
     position: fixed;
