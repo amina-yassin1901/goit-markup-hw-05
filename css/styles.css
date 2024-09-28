@@ -555,7 +555,12 @@ img {
     background-color: #4D5AE5;
     border: none;
     border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.footer-form-btn:hover,
+.footer-form-btn:focus {
+    background-color: #404bbf;
 }
 
 .footer-link-frame {
@@ -744,9 +749,6 @@ img {
 border-color: #404bbf;
 }
 
-.review-form-checkbox-icon {
-    
-}
 
 .review-form-checkbox-label {
     font-size: 12px;
@@ -780,6 +782,11 @@ border-color: #404bbf;
     min-width: 169px;
     margin-bottom: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.revier-form-submit-btn:hover,
+.revier-form-submit-btn:focus {
+    background-color: #404bbf;
 }
 
 .review-form-checkbox-wrapper {
